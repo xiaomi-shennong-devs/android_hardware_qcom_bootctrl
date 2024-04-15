@@ -80,7 +80,7 @@ enum part_attr_type {
 	ATTR_UNBOOTABLE,
 };
 
-bool mGvmqPlatform = false;
+static bool mGvmqPlatform = false;
 
 using ::android::bootable::GetMiscVirtualAbMergeStatus;
 using ::android::bootable::InitMiscVirtualAbMessageIfNeeded;
